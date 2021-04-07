@@ -1,22 +1,23 @@
 import React from "react";
 import { useStateValue } from "../../store/StateProvider";
+import { TYPES } from "../../store/type";
 
 import "./CheckoutProduct.css";
 
 function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
-	const [{ basket }, dispatch] = useStateValue();
+	const [{}, dispatch] = useStateValue();
 
 	const removeFromBasket = () => {
 		// remove the item from the basket
-		// dispatch({
-		//     type: 'REMOVE_FROM_BASKET',
-		//     id: id,
-		// })
+		dispatch({
+			type: TYPES.REMOVE_FROM_BASKET,
+			id: id,
+		});
 	};
 
 	return (
 		<div className="checkoutProduct">
-			<img className="checkoutProduct__image" src={image} />
+			<img className="checkoutProduct__image" src={image} alt={title} />
 
 			<div className="checkoutProduct__info">
 				<p className="checkoutProduct__title">{title}</p>

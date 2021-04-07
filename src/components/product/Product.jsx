@@ -1,16 +1,16 @@
 import React from "react";
 import { useStateValue } from "../../store/StateProvider";
+import { TYPES } from "../../store/type";
 
 import "./Product.css";
 
 function Product({ id, title, image, price, rating }) {
-	const [{ basket }, dispatch] = useStateValue();
-	console.log("this is the basket >>> ", basket);
+	const [{}, dispatch] = useStateValue();
 
 	const addToBasket = () => {
 		// dispatch the item into the dataLayer
 		dispatch({
-			type: "ADD_TO_BASKET",
+			type: TYPES.ADD_TO_BASKET,
 			item: {
 				id: id,
 				title: title,
