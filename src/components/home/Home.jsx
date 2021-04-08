@@ -11,35 +11,35 @@ function Home() {
 
 				<div className="home__row">
 					<Product
-						id="0307887898"
-						title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-						price={11.96}
+						id="lp_16225016011_1_2"
+						title="Nintendo Switch with Neon Blue and Neon Red Joy‑Con - HAC-001(-01)"
+						price={358.95}
 						rating={5}
-						image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg"
+						image="https://images-na.ssl-images-amazon.com/images/I/61-PblYntsL._AC_SL1500_.jpg"
 					/>
 					<Product
-						id="49538094"
-						title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-						price={239.19}
-						rating={4}
-						image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+						id="lp_16225016011_1_5"
+						title="Playstation DualSense Wireless Controller"
+						price={69.98}
+						rating={5}
+						image="https://images-na.ssl-images-amazon.com/images/I/61o7ai%2BYDoL._SL1441_.jpg"
 					/>
 				</div>
 
 				<div className="home__row">
 					<Product
-						id="4903840"
-						title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
-						price={199.99}
-						rating={3}
-						image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+						id="lp_16225016011_1_9"
+						title="The Legend of Zelda: Breath of the Wild - Nintendo Switch"
+						price={56.40}
+						rating={5}
+						image="https://images-na.ssl-images-amazon.com/images/I/81KGsbq8ekL._SL1500_.jpg"
 					/>
 					<Product
-						id="23445930"
-						title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
-						price={98.99}
-						rating={5}
-						image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+						id="lp_16225016011_1_11"
+						title="Ring Fit Adventure - Nintendo Switch"
+						price={89.00}
+						rating={4}
+						image="https://images-na.ssl-images-amazon.com/images/I/81V7L6auixL._SL1500_.jpg"
 					/>
 					<Product
 						id="3254354345"
