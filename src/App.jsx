@@ -3,6 +3,7 @@ import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import Checkout from "./components/checkout/Checkout";
 import Payment from "./components/payment/Payment";
+import Orders from "./components/order/Orders";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useEffect } from "react";
 import { useStateValue } from "./store/StateProvider";
@@ -50,7 +51,7 @@ function App() {
 					</Route>
 					<Route path="/orders">
 						<Header />
-						{/* <Orders /> */}
+						<Orders />
 					</Route>
 					<Route path="/checkout">
 						<Header />

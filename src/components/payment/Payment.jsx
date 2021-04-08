@@ -101,7 +101,8 @@ function Payment() {
 						<p>Los Angeles, CA</p>
 					</div>
 				</div>
-				{/* Payment section - Review items */}
+
+				{/* Payment section - Review Items */}
 				<div className="payment__section">
 					<div className="payment__title">
 						<h3>Review items and delivery</h3>
@@ -119,12 +120,13 @@ function Payment() {
 						))}
 					</div>
 				</div>
-				{/* Payment section - Paymend method */}
+
+				{/* Payment section - Payment method */}
 				<div className="payment__section">
 					<div className="payment__title">
 						<h3>Payment Method</h3>
 					</div>
-					<div className="payment__detailt">
+					<div className="payment__details">
 						{/* Stripe magic will go */}
 
 						<form onSubmit={handleSubmit}>
